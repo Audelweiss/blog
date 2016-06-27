@@ -25,7 +25,7 @@ Route::get('/', function () {
 
 Route::get('blog', 'BlogController@index');
 Route::get('blog/{slug}', 'BlogController@showPost');
-Route::get('admin/post/{id}/edit', 'Admin\PostController@edit');
+//Route::get('admin/post/{id}/edit', 'Admin\PostController@edit');
 
 // Admin area
 Route::get('admin', function () {
